@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar-brand {
+  font-size: 29px;
+  color: black;
+  font-weight: 700;
+}
+.navbar-brand:hover {
+  color: black;
+}
+.navbar-brand span {
+  font-size: 25px;
+  color: red;
+}
+.nav-link {
+  font-size: 17px;
+  color: rgb(136, 125, 125);
+  font-weight: 500;
+}
+#nav-home {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+}
+#nav-hover:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+}
+
+.nav-input {
+  color: white;
+  background: #ce1212;
+  border: none;
+}
