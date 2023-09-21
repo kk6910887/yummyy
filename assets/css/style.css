@@ -75,6 +75,10 @@
   margin-top: 5px;
   font-weight: 600;
 }
+#play-box span:hover {
+  color: #f20736;
+  transition: 0.5s ease;
+}
 
 /* about section */
 
@@ -95,14 +99,52 @@
 .about-box h3 {
   padding-top: 25px;
 }
+
 #card-body-box {
   background: #ce1212;
   color: white;
 }
 #card-body-box h1 {
   margin-bottom: 30px;
+  font-weight: 700;
 }
 #card-body-box span {
   font-weight: 400;
   font-size: 17px;
+}
+
+.learn-more-button {
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  transition: all ease-in-out 0.8s;
+}
+
+.learn-more-button:hover {
+  color: #ce1212;
+  background: white;
+}
+
+.three-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgb(251, 237, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-transform {
+  transition: transform 0.5s;
+}
+.card-transform:hover {
+  transform: scale(1.1);
+}
+
+/* number */
+
+.number {
+  font-size: ;
+  font-weight: ;
+  text-align: center;
 }
