@@ -160,19 +160,47 @@
   list-style: none;
 }
 .menu li {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: lighter;
   font-weight: 300;
-  text-underline-offset: 15px;
+  text-underline-offset: 12px;
   word-spacing: 15px;
 }
 .menu li a {
   color: black;
 }
 #menu-active {
-  color: black;
+  color: rgb(223, 14, 14);
 }
 
 .menu-hover:hover {
   color: red;
+  text-decoration-color: rgb(201, 191, 191);
+  text-decoration-thickness: 1px;
+}
+.starters {
+  text-align: center;
+  margin-top: 40px;
+}
+.starters span {
+  font-size: 14px;
+}
+.starters h1 {
+  color: #ce1212;
+}
+
+.menu-item {
+  text-align: center;
+}
+.menu-item img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.menu-item p {
+  font-size: 18px;
+  color: rgb(169, 178, 186);
+}
+.menu-item span {
+  font-size: 20px;
 }
