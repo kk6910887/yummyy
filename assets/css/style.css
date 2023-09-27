@@ -301,3 +301,16 @@
 .card:hover {
   transform: scale(1.1);
 }
+
+/* book a table */
+
+.reser-image {
+  height: 55vh;
+  position: relative;
+  right: 10px;
+}
+
+.input-box {
+  padding: 10px;
+  border: 1px solid rgb(228, 223, 223);
+}
