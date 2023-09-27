@@ -208,3 +208,96 @@
   color: #ce1212;
   line-height: 9px;
 }
+
+/* tstmonial section */
+
+.testimonial {
+  margin: 0px 200px;
+  border-left: 3px solid #ce1212;
+}
+.testimonial h4 {
+  font-weight: bold;
+}
+
+.testimonial p {
+  font-size: 17px;
+}
+
+.image-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+.swiper-pagination {
+  position: relative;
+  margin-top: 40px;
+  bottom: auto;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(11, 8, 8, 0.5);
+  opacity: ;
+}
+.swiper-pagination-bullet-active {
+  background: rgb(255, 0, 0);
+}
+/* moment section */
+
+.text {
+  color: white;
+  padding: 400px 20px 0px 20px;
+}
+.text h3 {
+  font-weight: bold;
+}
+.text span {
+  font-size: 37px;
+  font-weight: bold;
+  /* text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-thickness: 3px;
+  outline-offset: 15px; */
+  text-decoration: underline solid red 7%;
+  -moz-text-decoration-offset: 10px;
+}
+.text p {
+  font-size: 18px;
+}
+
+.swiper-slide {
+  transition: all 1s ease-in;
+}
+
+/* profestional chef */
+
+.card-img-top {
+  height: 45vh;
+}
+.waves {
+  position: absolute;
+  top: 330px;
+}
+
+.card-body {
+  text-align: center;
+}
+.card-body span {
+  color: rgb(195, 201, 206);
+}
+.card-body p {
+  margin-top: 17px;
+  font-size: 15px;
+  color: rgb(110, 103, 103);
+  line-height: 24px;
+}
+.card {
+  transition: all 0.5s ease-in;
+  background-size: cover;
+  overflow: hidden;
+  /* transition: all 0.5 ease-in; */
+}
+.card:hover {
+  transform: scale(1.1);
+}
