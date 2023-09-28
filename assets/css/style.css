@@ -310,7 +310,61 @@
   right: 10px;
 }
 
+.form-box textarea {
+  width: 94%;
+  border: 1px solid rgb(228, 223, 223);
+  outline: none;
+}
 .input-box {
   padding: 10px;
   border: 1px solid rgb(228, 223, 223);
+  width: 29.3%;
+  outline: none;
+}
+.table-button {
+  text-align: center;
+  margin: 10px;
+}
+.table-button button {
+  background: #ce1212;
+  color: white;
+  border: none;
+  padding: 12px 50px;
+}
+
+/* gallery section */
+
+/* contact section */
+
+.addres-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #ce1212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#addres-box {
+  margin-left: 8px;
+
+  display: flex;
+  align-items: center;
+}
+
+#addres-text-padding h4 {
+  line-height: 20px;
+}
+
+/* Contact form section */
+
+#contact-form {
+  width: 100%;
+  padding: 9px;
+}
+#contact-button {
+  background-color: #ce1212;
+  color: white;
+  font-size: 18px;
+  padding: 10px 30px;
 }
