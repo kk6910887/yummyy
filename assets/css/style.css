@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 .navbar-brand {
   font-size: 29px;
   color: black;
@@ -274,6 +275,8 @@
 
 .card-img-top {
   height: 45vh;
+
+  position: relative;
 }
 .waves {
   position: absolute;
@@ -296,14 +299,30 @@
   transition: all 0.5s ease-in;
   background-size: cover;
   overflow: hidden;
+
   /* transition: all 0.5 ease-in; */
 }
 .card:hover {
   transform: scale(1.1);
 }
 
-/* book a table */
+/* .link-border {
+  background: pink;
+  width: 20px;
+  height: 40px;
+} */
 
+.link-border ul li {
+  list-style: none;
+  background: pink;
+  width: 32px;
+  height: 35px;
+  padding: 3px 5px;
+  position: relative;
+  right: 200;
+}
+
+/* book a table */
 .reser-image {
   height: 55vh;
   position: relative;
